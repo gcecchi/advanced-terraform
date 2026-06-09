@@ -6,17 +6,17 @@ variable "project-id" {
 variable "org_id" {
   type = string
   default = ""
-  sensitive = true
+#  sensitive = true
 }
 
 variable "region" {
   type = string
-  default = "us-central1"
+  default = "europe-west8"
 }
 
 variable "zone" {
   type = string
-  default = "us-central1-a"
+  default = "europe-west8-a"
 }
 
 variable "subnet-name" {
