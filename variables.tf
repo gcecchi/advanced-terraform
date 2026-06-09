@@ -6,17 +6,17 @@ variable "project-id" {
 variable "org_id" {
   type = string
   default = ""
-  sensitive = true
+#  sensitive = true
 }
 
 variable "region" {
   type = string
-  default = "us-central1"
+  default = "europe-west8"
 }
 
 variable "zone" {
   type = string
-  default = "us-central1-a"
+  default = "europe-west8-a"
 }
 
 variable "subnet-name" {
@@ -66,7 +66,7 @@ variable "environment_map" {
 variable "environment_machine_type" {
   type = map(string)
   default = {
-    "DEV" = "f1-micro",
+    "DEV" = "e2-micro",
     "QA" = "e2-micro",
     "STAGE" = "e2-micro",
     "PROD" = "e2-medium"

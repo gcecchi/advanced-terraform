@@ -1,6 +1,6 @@
 environment_instance_settings = {
     "DEV" = {
-      machine_type = "f1-micro"
+      machine_type = "e2-micro"
       labels = {
         environment = "dev"
       },
